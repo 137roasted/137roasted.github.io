@@ -35,6 +35,11 @@ body, html {
     font-family: sans-serif;
 }
 
+.text:after { 
+    content:"\A";
+    white-space:pre;
+}
+
 .main-header {
     letter-spacing: 3px;
     font-size: 36px;
