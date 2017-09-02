@@ -44,3 +44,31 @@ body, html {
     letter-spacing: 1px;
     font-size: 24px;
 }
+
+@media (max-width: 900px) {
+    .content {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .content {
+        max-width: 450px;
+    }
+
+    .main-header {
+        font-size: 24px;
+    }
+
+    .main-info {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 450px) {
+    .content {
+        max-width: 300px;
+        padding-top: 0px;
+    }
+}
+
